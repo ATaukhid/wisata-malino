@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgray;
+}
+.main-container{
+    background-color: white;
+    font-family: sans-serif;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.img-gambar{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.img-gambar img{
+    width: 20%;
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.menu-header a{
+    flex: 1;
+    text-decoration: none;
+    background-color: rgb(99, 240, 33);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu-header a:hover{
+    background-color: rgb(151, 83, 26);
+    color: rgb(255, 255, 255);
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.paket-container{
+    width: 300px;
+    margin: 10px;
+}
+.paket-container img{
+    width: 100%;
+}
+.paket-container a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    color: black;
+}
+.paket-container h4{
+    color: rgb(139, 128, 128);
+}
+.video-container{
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.video-container iframe{
+    width: 100%;
+    height: auto;
+}
+.search-container{
+    margin-bottom: 10px;
+}
+.search-container input[type='text']{
+    padding: 5px;
+    margin-right: 10px;
+}
+.search-container input[type='submit']{
+    padding: 5px;
+}
+.brand-container{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.brand-container img{
+    width: 60%;
+}
+.brand-container h1 {
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.brand-container h2{
+    color: white;
+    font-size: 2vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
